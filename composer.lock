@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d41c12939349611255612994231445ad",
+    "packages": [
+        {
+            "name": "antofliberty/leader",
+            "version": "0.0.1",
+            "dist": {
+                "type": "path",
+                "url": "../leader",
+                "reference": "78737fba0c0c26ecf6280974e460930ad4475d59"
+            },
+            "require": {
+                "ext-pdo": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Leader\\": "./"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Mikhail Egorov",
+                    "email": "onfern@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "antofliberty/leader": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
